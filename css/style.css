@@ -85,6 +85,9 @@
 .container3 {
   padding-bottom: 10vh;
 }
+.container3 .container3Content {
+  margin: 0;
+}
 .container3 .container3Content .card-title {
   font-weight: bold;
 }
@@ -103,7 +106,7 @@
 .container3 .container3Content .card-footer {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 10px;
 }
 
 @media (max-width: 370px) {
